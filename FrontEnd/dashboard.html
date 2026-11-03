@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FertiSense - Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            FertiSense
+        </div>
+
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="soil-analysis.html">Soil Analysis</a>
+            <a href="reports.html">Reports</a>
+            <a href="#" id="logoutButton">Logout</a>
+        </nav>
+
+    </header>
+
+    <main class="dashboard-container">
+
+        <section class="welcome-section">
+
+            <h1>Welcome, <span id="farmerName">Farmer</span></h1>
+
+            <p>
+                Analyze your soil and get smart fertilizer recommendations.
+            </p>
+
+        </section>
+
+        <section class="dashboard-cards">
+
+            
+<div class="dashboard-card">
+    <h3>Soil Analysis</h3>
+    <p>Enter your soil nutrient values and analyze your soil.</p>
+
+    <a href="soil-analysis.html">Soil Analysis</a>
+</div>
+
+            <div class="dashboard-card">
+
+                <h2>Previous Reports</h2>
+
+                <p>
+                    View your previous soil analysis reports.
+                </p>
+
+                <a href="reports.html" class="dashboard-button">
+                    View Reports
+                </a>
+
+            </div>
+
+            <div class="dashboard-card">
+
+                <h2>Fertilizer Recommendation</h2>
+
+                <p>
+                    Get fertilizer recommendations based on soil nutrient levels.
+                </p>
+
+                <a href="soil-analysis.html" class="dashboard-button">
+                    Get Recommendation
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="how-it-works">
+
+            <h2>How FertiSense Works</h2>
+
+            <div class="process">
+
+                <div>
+                    <h3>1. Enter Soil Data</h3>
+                    <p>
+                        Enter the values from your soil test report.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>2. Analyze</h3>
+                    <p>
+                        FertiSense analyzes N, P, K and pH values.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>3. Recommendation</h3>
+                    <p>
+                        Get suitable fertilizer recommendations.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8f5e9;
+}
+
+.login-box {
+    width: 400px;
+    background-color: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.login-box .logo {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-box button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.account-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.account-text a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#loginMessage,
+#signupMessage {
+    text-align: center;
+    margin-top: 15px;
+}

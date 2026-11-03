@@ -1,0 +1,124 @@
+.dashboard-container,
+.analysis-container,
+.reports-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.welcome-section {
+    margin-bottom: 35px;
+}
+
+.welcome-section h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.dashboard-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card h2 {
+    margin-bottom: 15px;
+    color: #2e7d32;
+}
+
+.dashboard-card p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.how-it-works {
+    margin-top: 50px;
+}
+
+.how-it-works h2 {
+    margin-bottom: 25px;
+}
+
+.process {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.process div {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.process h3 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.analysis-container form {
+    background-color: white;
+    max-width: 700px;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.analysis-container button {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.result-section {
+    max-width: 700px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: none;
+}
+
+.result-section h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.report-card {
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.report-card h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.report-card p {
+    margin: 8px 0;
+}
+
+
+.dashboard-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #287a3d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.dashboard-btn:hover {
+    background-color: #1e5d2e;
+}
